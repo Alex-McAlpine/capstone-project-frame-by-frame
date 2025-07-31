@@ -40,6 +40,14 @@ User stories are a key component of agile development methodologies. They are sh
 
 All my user stories can be found on the project board.
 
+# Colour Scheme
+
+My colour scheme was chosen from a screenshot from my favourite movie, Interstellar which inspired me to go into video editing.
+
+![Colour-scheme-chosen](./README%20documentation/images/colour%20scheme.png)
+
+![Inspiration-for-colour-scheme](./README%20documentation/images/180052-film_stills-Interstellar_movie.jpg)
+
 ### Entity Relationship Diagram (ERD)
 
 ![Screenshots-of-ERDs](./README%20documentation/images/ERD.png)
