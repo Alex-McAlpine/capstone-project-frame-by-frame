@@ -1,0 +1,1 @@
+web: gunicorn frame_by_frame.wsgi
