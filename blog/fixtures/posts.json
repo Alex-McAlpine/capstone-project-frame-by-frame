@@ -1,0 +1,16 @@
+[
+    {
+        "model": "blog.post",
+        "pk": null,
+        "fields": {
+            "title": "Types of Video Editing: A Guide",
+            "slug": "types-of-video-editing-a-guide",
+            "author": 1,
+            "content": "<p>Film editing translates raw footage into a director’s vision by taking individual shots and transforming them into a cohesive narrative. The postproduction process takes many forms, including linear and nonlinear editing, continuity and discontinuity editing, and editing techniques such as cuts and transitions.</p>",
+            "created_on": "2023-05-23",
+            "status": 1,
+            "excerpt": "Types of Video Editing: A Guide By Suzy Woltmann from BACKSTAGE",
+            "updated_on": "2023-12-05"
+        }
+    }
+]
