@@ -1,5 +1,29 @@
 ### Frame By Frame
 
+## Table of Contents
+
+-[Frame-by-Frame](#frame-by-frame)
+-[Table-of-Contents](#table-of-contents)
+    - [Introduction](#introduction)
+    - [Repository](#repository)
+    - [Agile-Planning](#agile-planning)
+        - [Project-Board](#project-board)
+        - [Wireframes](#wireframes)
+        - [User-Stories](#user-stories)
+        - [Colour-Scheme](#colour-scheme)
+    - [Database](#database)
+        - [Entity-Relationship-Diagram-(ERD)](#entity-relationship-diagram-erd)
+    - [UX Design](#ux-design)
+    - [Features](#features)
+    - [Testing](#testing)
+    - [Deployment](#deployment)
+        -[Preparing-My-Project-For-Heroku](#preparing-my-project-for-heroku)
+        -[Deploying-To-Heroku](#deploying-to-heroku)
+    - [References](#references)
+    - [AI-Usage](#ai)
+    - [Technologies](#technologies)
+
+
 ## Introduction 
 
 Frame by Frame is a blog based website coded in HTML/CSS, utilising bootstrap frameworks and Python using Django frameworks.
@@ -8,9 +32,9 @@ Frame by Frame is a blog based website coded in HTML/CSS, utilising bootstrap fr
 
 ## Repository
 
-The GitHub repo can be found here: ![Git-Repo](https://github.com/Alex-McAlpine/capstone-project-frame-by-frame)
+The GitHub repo can be found here: [Git-Repo](https://github.com/Alex-McAlpine/capstone-project-frame-by-frame)
 
-The Project Board can be found here: ![Project-Board](https://github.com/users/Alex-McAlpine/projects/9)
+The Project Board can be found here: [Project-Board](https://github.com/users/Alex-McAlpine/projects/9)
 
 The deployed Heroku link can be found here: [Deployed-link]
 
@@ -48,7 +72,9 @@ My colour scheme was chosen from a screenshot from my favourite movie, Interstel
 
 ![Inspiration-for-colour-scheme](./README%20documentation/images/180052-film_stills-Interstellar_movie.jpg)
 
-### Entity Relationship Diagram (ERD)
+### Database
+
+## Entity Relationship Diagram (ERD)
 
 ![Screenshots-of-ERDs](./README%20documentation/images/ERD.png)
 
@@ -62,8 +88,6 @@ My colour scheme was chosen from a screenshot from my favourite movie, Interstel
 ### Testing 
 
 ### Deployment
-
-## Deploying the application to heroku involved several steps.
 
 # Preparing my project for heroku
 
