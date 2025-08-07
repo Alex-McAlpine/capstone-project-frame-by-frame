@@ -30,6 +30,28 @@
             </div>
         </div>
     </div>
+
+    <!-- Displaying likes on a post -->
+    <div class="row">
+        <div class="col-12">
+            <strong class="text-secondary">
+                <i class="far fa-heart"></i> {{ post.likes.count }}
+            </strong>
+        </div>
+    </div>
+
+    <!-- Like Button -->
+    <div class="row">
+        <div class="col-12 mt-2">
+            <form action="{% url 'like_post' post.pk %}" method="POST">
+                {% csrf_token %}
+                <button type="submit" name="post_id" value="{{ post.id }}" class="btn btn-primary btn-sm">
+                    Like
+                </button>
+            </form>
+        </div>
+    </div>
+
     <!-- Displaying count of comments -->
     <div class="row">
         <div class="col-12">
