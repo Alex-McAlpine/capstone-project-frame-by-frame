@@ -2,25 +2,31 @@
 
 ## Table of Contents
 
--[Frame-by-Frame](#frame-by-frame)
--[Table-of-Contents](#table-of-contents)
+- [Frame by Frame](#frame-by-frame)
+- [Table of Contents](#table-of-contents)
     - [Introduction](#introduction)
     - [Repository](#repository)
-    - [Agile-Planning](#agile-planning)
-        - [Project-Board](#project-board)
+    - [Agile Planning](#agile-planning)
+        - [Project Board](#project-board)
         - [Wireframes](#wireframes)
-        - [User-Stories](#user-stories)
-        - [Colour-Scheme](#colour-scheme)
+        - [User Stories](#user-stories)
+        - [Colour Scheme](#colour-scheme)
     - [Database](#database)
-        - [Entity-Relationship-Diagram-(ERD)](#entity-relationship-diagram-erd)
+        - [Entity Relationship Diagram (ERD)](#entity-relationship-diagram-erd)
     - [UX Design](#ux-design)
     - [Features](#features)
     - [Testing](#testing)
+        -[UI/User Story Tests](#uiuser-story-tests)
+        -[Unit Tests](#unit-test)
+        -[HTML](#html)
+        -[CSS](#css)
+        -[Python](#python)
+        -[Testing Screenshots](#testing-screenshots)
     - [Deployment](#deployment)
-        -[Preparing-My-Project-For-Heroku](#preparing-my-project-for-heroku)
-        -[Deploying-To-Heroku](#deploying-to-heroku)
+        - [Preparing My Project For Heroku](#preparing-my-project-for-heroku)
+        - [Deploying To Heroku](#deploying-to-heroku)
     - [References](#references)
-    - [AI-Usage](#ai)
+    - [AI Usage](#ai)
     - [Technologies](#technologies)
 
 
@@ -66,7 +72,7 @@ All my user stories can be found on the project board.
 
 # Colour Scheme
 
-My colour scheme was chosen from a screenshot from my favourite movie, Interstellar which inspired me to go into video editing.
+My colour scheme was chosen from a screenshot from my favourite movie, Interstellar, which inspired me to go into video editing.
 
 ![Colour-scheme-chosen](./README%20documentation/images/colour%20scheme.png)
 
@@ -76,18 +82,63 @@ My colour scheme was chosen from a screenshot from my favourite movie, Interstel
 
 ## Entity Relationship Diagram (ERD)
 
-![Screenshots-of-ERDs](./README%20documentation/images/ERD.png)
-
-
-### UX Design
+![Screenshots-of-ERDs]
 
 ### Features
 
+Frame by Frame offers a range of interactive features designed to enhance user engagement and foster a vibrant blogging community:
+
+- **Like/Dislike Rating System:** Users can express their opinions on blog posts by liking or disliking them. This feedback mechanism helps highlight popular content and encourages quality contributions.
+- **Commenting:** Every post supports a comment section, allowing users to share their thoughts, ask questions, or engage in discussions with the author and other readers.
+- **Account Registration:** Visitors can create an account to unlock additional features. Registration is quick and secure, ensuring a personalized experience.
+- **Authenticated User Actions:** Registered users gain access to exclusive capabilities, including:
+    - **Creating Posts:** Share your own blog entries with the community.
+    - **Liking/Disliking Posts:** Interact with content by rating posts from other users.
+    - **Commenting:** Participate in conversations by commenting on any post.
+- **User Management:** The platform ensures that only authenticated users can create, like, or comment on posts, maintaining a safe and respectful environment.
+
+These features collectively create an engaging platform where users can connect, share ideas, and contribute to the Frame by Frame community.
+
+## Future Features
+
+- **Bookmarking system**
+
+    Allow users to save their favorite blog posts or tutorials for quick access later, making it easier to revisit important content or resources.
+
+- **Glossary of terms**
+
+    Provide a comprehensive list of video editing terminology with clear definitions, helping beginners and experienced users alike understand industry jargon.
+
+- **Tutorials/Tips**
+
+    Offer step-by-step guides and practical tips on various video editing techniques, tools, and workflows to help users improve their editing skills.
+
+- **In-depth reviews**
+
+    Publish detailed reviews of video editing software, plugins, and equipment, giving readers insights into the best tools and resources for their projects.
 
 
-### Testing 
+### Testing/Validation
+
+## UI/User Story Tests
+
+## Unit Test
+
+## HTML
+
+## CSS
+
+## Python
+
+To avoid oversaturation I've just included the more important files.
+
+## Testing Screenshots
+
 
 ### Deployment
+
+To deploy Frame by Frame, the project code is first pushed to a GitHub repository for version control and collaboration. From there, Heroku is used as the hosting platform. The repository is connected to Heroku, and necessary environment variables and dependencies are configured. After setting up static files and security settings, the application is deployed directly from GitHub to Heroku, making it accessible online.
+
 
 # Preparing my project for heroku
 
@@ -105,8 +156,6 @@ create a Procfile. This file tells Heroku how to run your application.
 - Link github repository & Code Institute PostGres database
 - Add environmental variables to heroku, such as, secret keys.
 - Deploy the application
-
-### References
 
 ### AI
 
