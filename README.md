@@ -82,7 +82,7 @@ My colour scheme was chosen from a screenshot from my favourite movie, Interstel
 
 ## Entity Relationship Diagram (ERD)
 
-![Screenshots-of-ERDs]
+![Screenshots-of-ERDs](./README%20documentation/images/ERD%20Diagram.png)
 
 ### Features
 
