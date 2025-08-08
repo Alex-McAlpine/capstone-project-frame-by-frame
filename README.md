@@ -82,6 +82,8 @@ My colour scheme was chosen from a screenshot from my favourite movie, Interstel
 
 ## Entity Relationship Diagram (ERD)
 
+My ERD diagram was created via [Eraser.io](https://app.eraser.io/)
+
 ![Screenshots-of-ERDs](./README%20documentation/images/ERD%20Diagram.png)
 
 ### Features
