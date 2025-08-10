@@ -159,7 +159,11 @@ VSCode announced there was no clear problems within the code used.
 
 # Base.HTML 
 
+Despite having a few informational tips, the base.html passed the HTML validation.
 
+![Base.html](./README%20documentation/images/Home%20page%20HTML%20Pass.png)
+
+# About.HTML
 
 ## CSS
 
