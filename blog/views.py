@@ -23,6 +23,11 @@ def post_detail(request, slug):
     # Get total likes from the model method
     total_likes = post.total_likes()
 
+    # Check if the current user already liked this post
+    liked = False
+    if post.likes.filter(id=request.user.id).exists():
+        liked = True
+
     if request.method == "POST":
         comment_form = CommentForm(data=request.POST)
         if comment_form.is_valid():
@@ -47,6 +52,7 @@ def post_detail(request, slug):
             "comment_count": comment_count,
             "comment_form": comment_form,
             "total_likes": total_likes,
+            "liked": liked, 
         },
     )
 
@@ -84,8 +90,15 @@ def comment_delete(request, slug, comment_id):
 
     return HttpResponseRedirect(reverse('post_detail', args=[slug]))
 
+
 def LikeView(request, pk):
     post = get_object_or_404(Post, id=request.POST.get('post_id'))
-    post.likes.add(request.user)
+    liked = False
+    if post.likes.filter(id=request.user.id).exists():
+        post.likes.remove(request.user)
+        liked = False
+    else:
+        post.likes.add(request.user)
+        liked = True
     return HttpResponseRedirect(reverse('post_detail', args=[post.slug]))
 
