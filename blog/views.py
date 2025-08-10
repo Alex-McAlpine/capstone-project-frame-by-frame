@@ -6,17 +6,20 @@ from .models import Post, Comment
 from .forms import CommentForm
 
 # Create your views here.
+
+
 class PostList(generic.ListView):
     """
     Returns all published posts in :model:`blog.Post`
-    and displays them in a page of six posts. 
+    and displays them in a page of six posts.
+
     **Context**
 
     ``queryset``
         All published instances of :model:`blog.Post`
     ``paginate_by``
         Number of posts per page.
-        
+
     **Template:**
 
     :template:`blog/index.html`
@@ -45,7 +48,6 @@ def post_detail(request, slug):
 
     :template:`blog/post_detail.html`
     """
-    
 
     queryset = Post.objects.filter(status=1)
     post = get_object_or_404(queryset, slug=slug)
@@ -71,9 +73,9 @@ def post_detail(request, slug):
                 request, messages.SUCCESS,
                 'Comment submitted and awaiting approval'
             )
-            comment_form = CommentForm()  
+            comment_form = CommentForm() 
     else:
-        comment_form = CommentForm()  
+        comment_form = CommentForm() 
 
     return render(
         request,
@@ -84,7 +86,7 @@ def post_detail(request, slug):
             "comment_count": comment_count,
             "comment_form": comment_form,
             "total_likes": total_likes,
-            "liked": liked, 
+            "liked": liked,
         },
     )
 
@@ -120,7 +122,9 @@ def comment_edit(request, slug, comment_id):
 
     return HttpResponseRedirect(reverse('post_detail', args=[slug]))
 
+
 def comment_delete(request, slug, comment_id):
+
     """
     Delete an individual comment.
 
@@ -140,7 +144,8 @@ def comment_delete(request, slug, comment_id):
         comment.delete()
         messages.add_message(request, messages.SUCCESS, 'Comment deleted!')
     else:
-        messages.add_message(request, messages.ERROR, 'You can only delete your own comments!')
+        messages.add_message
+        (request, messages.ERROR, 'You can only delete your own comments!')
 
     return HttpResponseRedirect(reverse('post_detail', args=[slug]))
 
@@ -169,4 +174,3 @@ Redirects to the post detail page after updating the like status.
         post.likes.add(request.user)
         liked = True
     return HttpResponseRedirect(reverse('post_detail', args=[post.slug]))
-

@@ -157,13 +157,9 @@ VSCode announced there was no clear problems within the code used.
 
 ![VScode-terminal](./README%20documentation/images/No%20problems%20terminal.png)
 
-However initial validations threw up some serious errors that had to be fixed. 
-
 # Base.HTML 
 
-![HTML-Fail](./README%20documentation/images/HTML%20fail.png)
 
-Upon fixing those errors
 
 ## CSS
 
@@ -177,8 +173,19 @@ My CSS code passed validation, which is important because it ensures the styles 
 
 To avoid oversaturation I've just included the more important files.
 
+During my Python validation there were some cases of lines being over an 80 character threshold that were flagging up, these have since been fixed.
+
+![About-models.py](./README%20documentation/images/About%20models.py%20PASS.png)
+
+![About-views.py](./README%20documentation/images/About%20Views.py%20PASS.png)
+
+![Blog-models.py](./README%20documentation/images/blog%20models.py%20PASS.png)
+
+![Blog-views.py](./README%20documentation/images/Blog%20Views.py%20PASS.png)
+
 ## JavaScript
 
+I used JSHint to validate my JavaScript, I had no issues here.
 
 ![JavaScript-Pass](./README%20documentation/images/JavaScript%20pass.png)
 
