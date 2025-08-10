@@ -124,17 +124,65 @@ These features collectively create an engaging platform where users can connect,
 
 ## UI/User Story Tests
 
+There were a total of 19 User stories, using MoSCoW prioritisation I had 15 Must haves, 2 should haves and 2 could haves.
+
+| User Story - MUST HAVE                                                                                                                                            | Status  |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|
+| As a Site User, I can click on a post so that I can read the full text.                                                                                           | PASSED  |
+| As a Site Admin I can create, read, update and delete posts so that I can manage my blog content.                                                                 | PASSED  |
+| As a Site User I can leave comments on a post so that I can be involved in the conversation.                                                                      | PASSED  |
+| As a Site Admin, I can create or update the about page content so that it is available on the site.                                                               | PASSED  |
+| As a Site User, I can click on the About link so that I can read about the site.                                                                                  | PASSED  |
+| As a Site User I can modify or delete my comment on a post so that I can be involved in the conversation.                                                         | PASSED  |
+| As a Site Admin I can approve or disapprove comments so that I can filter out objectionable comments.                                                             | PASSED  |
+| As a Site User I can register an account so that I can comment on a post.                                                                                         | PASSED  |
+| As a Site User / Admin I can view comments on an individual post so that I can read the conversation.                                                             | PASSED  |
+| As a Site Admin I can create draft posts so that I can finish writing the content later.                                                                          | PASSED  |
+| As a Site Owner I can mark collaboration requests as "read" so that I can see how many I still need to process.                                                   | PASSED  |
+| As a logged in user of the website I should be able to rate (like/unlike) posts that appear on the page.                                                          | PASSED  |
+| As a Site Owner I can store collaboration requests in the database so that I can review them.                                                                     | PASSED  |
+| As a Potential Collaborator I can fill in a contact form so that I can submit a request for collaboration.                                                        | PASSED  |
+| As a site user, I can view a paginated list of posts so that I can select which post I want to view.                                                              | PASSED  |
+
 ## Unit Test
+
+I ran python manage.py test to execute unit tests that verified my Python code passed successfully, ensuring the functionality works as expected and preventing potential bugs before deployment.
+
+![Unit-Tests](./README%20documentation/images/Unit%20tests.png)
+
 
 ## HTML
 
+VSCode announced there was no clear problems within the code used.
+
+![VScode-terminal](./README%20documentation/images/No%20problems%20terminal.png)
+
+However initial validations threw up some serious errors that had to be fixed. 
+
+# Base.HTML 
+
+![HTML-Fail](./README%20documentation/images/HTML%20fail.png)
+
+Upon fixing those errors
+
 ## CSS
+
+My CSS code passed validation, which is important because it ensures the styles follow web standards, improving cross-browser compatibility and reducing layout issues.
+
+![CSS-Validator](./README%20documentation/images/CSS%20Validation.png)
 
 ## Python
 
+![Unit-tests](./README%20documentation/images/Unit%20tests.png)
+
 To avoid oversaturation I've just included the more important files.
 
-## Testing Screenshots
+## JavaScript
+
+
+![JavaScript-Pass](./README%20documentation/images/JavaScript%20pass.png)
+
+# Lighthouse Test
 
 
 ### Deployment
