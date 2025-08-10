@@ -74,9 +74,9 @@ All my user stories can be found on the project board.
 
 My colour scheme was chosen from a screenshot from my favourite movie, Interstellar, which inspired me to go into video editing.
 
-![Colour-scheme-chosen](./README%20documentation/images/colour%20scheme.png)
+![Colour-scheme-chosen](./README%20documentation/images/Colour%20scheme.png)
 
-![Inspiration-for-colour-scheme](./README%20documentation/images/180052-film_stills-Interstellar_movie.jpg)
+![Inspiration-for-colour-scheme](./README%20documentation/images/Colour%20scheme%20inspiration.jpg)
 
 ### Database
 
