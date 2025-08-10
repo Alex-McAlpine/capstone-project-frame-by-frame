@@ -57,7 +57,7 @@
                 </button>
                 {% endif %}
         {% else %}
-        <small><i class="fas fa-user"></i></small>Must be logged in to like a post
+        <small><i class="fas fa-user"></i> <a href="{% url 'account_login' %}">Login</a> to like a post</small>
         {% endif %}
             </form>
         </div>
