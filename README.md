@@ -120,6 +120,10 @@ These features collectively create an engaging platform where users can connect,
     Publish detailed reviews of video editing software, plugins, and equipment, giving readers insights into the best tools and resources for their projects.
 
 
+### UX 
+
+
+
 ### Testing/Validation
 
 ## UI/User Story Tests
