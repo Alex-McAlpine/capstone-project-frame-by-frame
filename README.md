@@ -173,17 +173,27 @@ My CSS code passed validation, which is important because it ensures the styles 
 
 ## Python
 
+# VSCode Unit Tests
+
 ![Unit-tests](./README%20documentation/images/Unit%20tests.png)
 
 To avoid oversaturation I've just included the more important files.
 
 During my Python validation there were some cases of lines being over an 80 character threshold that were flagging up, these have since been fixed.
 
+# About Models.py
+
 ![About-models.py](./README%20documentation/images/About%20models.py%20PASS.png)
+
+# About Views.py
 
 ![About-views.py](./README%20documentation/images/About%20Views.py%20PASS.png)
 
+# Blog Models.py
+
 ![Blog-models.py](./README%20documentation/images/blog%20models.py%20PASS.png)
+
+# Blog Views.py
 
 ![Blog-views.py](./README%20documentation/images/Blog%20Views.py%20PASS.png)
 
