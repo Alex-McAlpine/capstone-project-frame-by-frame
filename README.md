@@ -209,6 +209,19 @@ I used JSHint to validate my JavaScript, I had no issues here.
 
 # Lighthouse Test
 
+Undertaking a lighthouse test came back with positive results.
+
+# Home Page
+
+![Lighthouse-test](./README%20documentation/images/Lighthouse%20tests.png)
+
+# About Page
+
+![Lighthouse-test2](./README%20documentation/images/lighthouse%20test%20for%20about.png)
+
+# Post Detail HTML
+
+![Lighthouse-test3](./README%20documentation/images/post%20details%20lighthouse.png)
 
 ### Deployment
 
