@@ -44,6 +44,10 @@ body {
     background-color: #D7E4E9;
 }
 
+.card-text {
+    color: #374248;
+}
+
 
 .image-container {
     position: relative;
@@ -63,7 +67,7 @@ body {
 }
 
 .author {
-    color: #A3B3BA;
+    color: #374248;
     margin: 4px;
     text-transform: uppercase;
 }
@@ -108,7 +112,7 @@ body {
 
 .post-link {
     text-decoration: none;
-    color: #BDCCD1;
+    color: #374248;
 }
 
 .post-link:hover,

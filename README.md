@@ -132,9 +132,21 @@ These features collectively create an engaging platform where users can connect,
     Publish detailed reviews of video editing software, plugins, and equipment, giving readers insights into the best tools and resources for their projects.
 
 
-### UX 
+### UX
 
+The user experience (UX) of Frame by Frame is designed to be intuitive and user-friendly, ensuring that visitors can easily navigate the blog and interact with its features:
 
+- **Clear Navigation:** The site features a straightforward navigation bar, allowing users to quickly access key sections such as Home, Blog Posts, About, and Account options. This structure helps users find content and features without confusion.
+
+- **Responsive Design:** The layout adapts seamlessly to different devices, providing an optimal viewing and interaction experience on desktops, tablets, and mobile phones.
+
+- **Accessible Communication:** Each blog post includes a comment section, making it easy for users to engage in discussions, ask questions, and share feedback with both authors and other readers. The comment interface is simple and accessible, encouraging active participation.
+
+- **Interactive Features:** Users can like or unlike posts with a single click, providing immediate feedback and helping to highlight popular content. These interactive elements are clearly visible and easy to use, enhancing engagement across the platform.
+
+- **User Onboarding:** Account registration is streamlined, enabling new users to join the community and unlock additional features such as posting, commenting, and liking content.
+
+Overall, the UX prioritizes clarity, accessibility, and engagement, making it easy for users to explore, communicate, and interact within the Frame by Frame blogging community.
 
 ### Testing/Validation
 
@@ -181,6 +193,8 @@ Base template passed HTML validation.
 ![Base.html](./README%20documentation/images/Home%20page%20HTML%20Pass.png)
 
 # About.HTML
+
+![About.html]
 
 ## CSS
 
@@ -281,3 +295,9 @@ AI tools were used for brainstorming intital planning phases, colour scheme sele
 - Squoosh for reducing image sizes.
 - Coolors for colour palette.
 - Eraser.io for ERDs.
+- FavIcon for browser icon.
+- Code Institute for helping me learn coding and supporting my journey.
+
+
+Everything used in the article posts is for educational purposes only and is not intended to infringe or steal anyones work,
+all authors and original posts have been credited at the bottom of each post.
