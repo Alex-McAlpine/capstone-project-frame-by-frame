@@ -13,52 +13,54 @@
         - [Colour Scheme](#colour-scheme)
     - [Database](#database)
         - [Entity Relationship Diagram (ERD)](#entity-relationship-diagram-erd)
-    - [UX Design](#ux-design)
     - [Features](#features)
-    - [Testing](#testing)
+        - [Future-Features](#future-features)
+    - [UX Design](#ux)
+    - [Testing/Validation](#testingvalidation)
         -[UI/User Story Tests](#uiuser-story-tests)
         -[Unit Tests](#unit-test)
         -[HTML](#html)
+            -[Base.HTML](#basehtml)
+            -[About.HTML](#abouthtml)
         -[CSS](#css)
         -[Python](#python)
-        -[Testing Screenshots](#testing-screenshots)
+        -[JavaScript](#javascript)
+        -[Lighthouse](#lighthouse-test)
+            -[Home-page](#home-page)
+            -[About-page](#about-page)
+            -[Post-Detail-HTML](#post-detail-html)
     - [Deployment](#deployment)
         - [Preparing My Project For Heroku](#preparing-my-project-for-heroku)
         - [Deploying To Heroku](#deploying-to-heroku)
-    - [References](#references)
     - [AI Usage](#ai)
     - [Technologies](#technologies)
-
+    - [References/Credits](#referencescreditslegal)
 
 ## Introduction 
 
-Frame by Frame is a blog based website coded in HTML/CSS, utilising bootstrap frameworks and Python using Django frameworks.
+Frame by Frame is a blog-based website developed using HTML, CSS, Bootstrap, and Python with the Django framework.
 
 [Screenshots-of-Website]
 
 ## Repository
 
-The GitHub repo can be found here: [Git-Repo](https://github.com/Alex-McAlpine/capstone-project-frame-by-frame)
-
-The Project Board can be found here: [Project-Board](https://github.com/users/Alex-McAlpine/projects/9)
-
-The deployed Heroku link can be found here: [Deployed-link]
+- [GitHub Repository](https://github.com/Alex-McAlpine/capstone-project-frame-by-frame)
+- [Project Board](https://github.com/users/Alex-McAlpine/projects/9)
+- Deployed Heroku link: [Deployed-link](https://frame-by-frame-044462eff376.herokuapp.com/)
 
 ## Agile Planning
 
-This project utilised an agile methodology for the project. Making use of user stories, wireframes and a kanban board.
+This project follows agile methodology, utilizing user stories, wireframes, and a Kanban board.
 
 # Project Board
 
-A Kanban board is an Agile project management tool that uses columns for workflow stages and cards for tasks, helping teams track progress and identify bottlenecks.
+A Kanban board was used for workflow management, tracking progress, and identifying bottlenecks.
 
 ![Screenshot-of-project-board](./README%20documentation/images/Project%20board%20fbf.png)
 
 # Wireframes
 
-Wireframes are an essential part of the UI design process. These simple sketches I put together in Canva.com help to bring the application to life before coding had even started. Wireframes help to visualize the placement of elements on the page and guide the development process.
-
-The design didn't change significantly during development but additional features and details were added to enhance the application beyond the initial scope.
+Wireframes were created in Canva.com to visualize UI layout and guide development.
 
 ![Screenshot-of-PC-Home](./README%20documentation/images/PC%20home.png)
 
@@ -66,13 +68,11 @@ The design didn't change significantly during development but additional feature
 
 # User Stories
 
-User stories are a key component of agile development methodologies. They are short, simple descriptions of a feature or functionality told from the perspective of the end user. User stories help to capture the requirements of the application in a way that is easy to understand and communicate. They focus on the value that the feature will bring to the user and provide a basis for planning, development, and testing.
-
-All my user stories can be found on the project board.
+User stories were used to capture requirements from the end-user perspective and are available on the project board.
 
 # Colour Scheme
 
-My colour scheme was chosen from a screenshot from my favourite movie, Interstellar, which inspired me to go into video editing.
+The colour scheme was inspired by a screenshot from the movie Interstellar.
 
 ![Colour-scheme-chosen](./README%20documentation/images/Colour%20scheme.png)
 
@@ -82,7 +82,7 @@ My colour scheme was chosen from a screenshot from my favourite movie, Interstel
 
 ## Entity Relationship Diagram (ERD)
 
-My ERD diagram was created via [Eraser.io](https://app.eraser.io/)
+The ERD was created using [Eraser.io](https://app.eraser.io/).
 
 ![Screenshots-of-ERDs](./README%20documentation/images/ERD%20Diagram.png)
 
@@ -90,13 +90,25 @@ My ERD diagram was created via [Eraser.io](https://app.eraser.io/)
 
 Frame by Frame offers a range of interactive features designed to enhance user engagement and foster a vibrant blogging community:
 
-- **Like/Dislike Rating System:** Users can express their opinions on blog posts by liking or disliking them. This feedback mechanism helps highlight popular content and encourages quality contributions.
+- **Like/Unliking Rating System:** Users can express their opinions on blog posts by liking or unliking them. This feedback mechanism helps highlight popular content and encourages quality contributions.
+
+[Screenshots-needed]
+
 - **Commenting:** Every post supports a comment section, allowing users to share their thoughts, ask questions, or engage in discussions with the author and other readers.
+
+[Screenshots-needed]
+
 - **Account Registration:** Visitors can create an account to unlock additional features. Registration is quick and secure, ensuring a personalized experience.
+
+[Screenshots-needed]
+
 - **Authenticated User Actions:** Registered users gain access to exclusive capabilities, including:
-    - **Creating Posts:** Share your own blog entries with the community.
-    - **Liking/Disliking Posts:** Interact with content by rating posts from other users.
+    - **Creating Posts:** Share your own blog entries with the community. 
+    - **Liking/Unliking Posts:** Interact with content by rating posts from other users.
     - **Commenting:** Participate in conversations by commenting on any post.
+
+    [Screenshots-needed]
+
 - **User Management:** The platform ensures that only authenticated users can create, like, or comment on posts, maintaining a safe and respectful environment.
 
 These features collectively create an engaging platform where users can connect, share ideas, and contribute to the Frame by Frame community.
@@ -150,20 +162,21 @@ There were a total of 19 User stories, using MoSCoW prioritisation I had 15 Must
 
 ## Unit Test
 
-I ran python manage.py test to execute unit tests that verified my Python code passed successfully, ensuring the functionality works as expected and preventing potential bugs before deployment.
+# VSCode Unit Tests
+Unit tests were executed using `python manage.py test` to verify functionality and prevent bugs.
 
 ![Unit-Tests](./README%20documentation/images/Unit%20tests.png)
 
 
 ## HTML
 
-VSCode announced there was no clear problems within the code used.
+HTML code was validated in VSCode with no major issues.
 
 ![VScode-terminal](./README%20documentation/images/No%20problems%20terminal.png)
 
 # Base.HTML 
 
-Despite having a few informational tips, the base.html passed the HTML validation.
+Base template passed HTML validation.
 
 ![Base.html](./README%20documentation/images/Home%20page%20HTML%20Pass.png)
 
@@ -171,19 +184,13 @@ Despite having a few informational tips, the base.html passed the HTML validatio
 
 ## CSS
 
-My CSS code passed validation, which is important because it ensures the styles follow web standards, improving cross-browser compatibility and reducing layout issues.
+CSS code passed validation, ensuring web standards and cross-browser compatibility.
 
 ![CSS-Validator](./README%20documentation/images/CSS%20Validation.png)
 
 ## Python
 
-# VSCode Unit Tests
-
-![Unit-tests](./README%20documentation/images/Unit%20tests.png)
-
-To avoid oversaturation I've just included the more important files.
-
-During my Python validation there were some cases of lines being over an 80 character threshold that were flagging up, these have since been fixed.
+Python code was validated, and long lines were corrected to meet style guidelines.
 
 # About Models.py
 
@@ -203,13 +210,13 @@ During my Python validation there were some cases of lines being over an 80 char
 
 ## JavaScript
 
-I used JSHint to validate my JavaScript, I had no issues here.
+JavaScript was validated using JSHint with no issues.
 
 ![JavaScript-Pass](./README%20documentation/images/JavaScript%20pass.png)
 
 # Lighthouse Test
 
-Undertaking a lighthouse test came back with positive results.
+Lighthouse tests returned positive results.
 
 # Home Page
 
@@ -225,7 +232,7 @@ Undertaking a lighthouse test came back with positive results.
 
 ### Deployment
 
-To deploy Frame by Frame, the project code is first pushed to a GitHub repository for version control and collaboration. From there, Heroku is used as the hosting platform. The repository is connected to Heroku, and necessary environment variables and dependencies are configured. After setting up static files and security settings, the application is deployed directly from GitHub to Heroku, making it accessible online.
+The project is deployed to Heroku via GitHub, with environment variables and static files configured for production.
 
 
 # Preparing my project for heroku
@@ -247,22 +254,30 @@ create a Procfile. This file tells Heroku how to run your application.
 
 ### AI
 
-I used AI in both the creative planning phase and during the coding phase. 
+AI tools were used for brainstorming intital planning phases, colour scheme selection, code generation, troubleshooting, and validation.
 
-AI helped me brainstorm a name for the blog. On top of that, I used AI tools to come up with a colour scheme for the website.
-
-AI was particularly helpful in speeding up certain coding sections, with its ability to create code very quickly.
-
-AI played a key role in troubleshooting when problems did arise, in particular identifying venv issues or local packages missing.
 
 ### Technologies
 
 - HTML5- for page structure.
 - CSS3- for custom styling.
 - Python- for the backend.
-- Django- framework used to build this project.
 - Heroku - for hosting and deployement of this project.
 - Git - for version control.
 - GitHub is used for setting up and managing project repositories.
 - A GitHub Project Board are utilized for effectively managing tasks, tracking project progress, and ensuring efficient implementation.
+
+
+
+### References/Credits/Legal
+
+- Google Fonts for typography.
 - Canva.com for wireframes.
+- Django- framework used to build this project.
+- JSHint for JavaScript validation.
+- W3C HTML and CSS validators.
+- Microsoft Copilot for AI contribution and assistance.
+- Bootstrap for CSS framework.
+- Squoosh for reducing image sizes.
+- Coolors for colour palette.
+- Eraser.io for ERDs.
