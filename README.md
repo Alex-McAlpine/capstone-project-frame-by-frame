@@ -71,9 +71,17 @@ A Kanban board was used for workflow management, tracking progress, and identify
 
 Wireframes were created in Canva.com to visualize UI layout and guide development.
 
-![Screenshot-of-PC-Home](./README%20documentation/images/PC%20home.png)
+![Screenshot-of-PC-Home](./README%20documentation/images/pc%20home.png)
 
 ![Screenshot-of-Mobile-Home](./README%20documentation/images/mobile%20home.png)
+
+![Screenshot-of-About-PC](./README%20documentation/images/About%20me%20desktop.png)
+
+![Screenshot-of-About-Mobile](./README%20documentation/images/About%20me%20mobile.png)
+
+![Screenshot-of-postdetail-PC](./README%20documentation/images/post%20detail%20desktop.png)
+
+![Screenshot-of-postdetail-mobile](./README%20documentation/images/post%20detail%20mobile.png)
 
 # User Stories
 
@@ -226,7 +234,6 @@ There were a total of 19 User stories, using MoSCoW prioritisation I had 15 Must
 Unit tests were executed using `python manage.py test` to verify functionality and prevent bugs.
 
 ![Unit-Tests](./README%20documentation/images/Unit%20tests.png)
-
 
 ## HTML
 
