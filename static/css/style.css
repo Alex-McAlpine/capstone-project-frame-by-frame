@@ -4,8 +4,40 @@
     border-bottom: 1px solid #374248;
 }
 
-h1, h2, h3, p {
-    color:#D7E4E9;
+.form-label {
+    color: #fff;
+}
+
+.text-end {
+    color: #fff
+}
+
+.about-me,
+.about-text {
+    color: #fff;
+}
+
+.collaborate-title,
+.collaborate-text {
+    color: #fff;
+}
+
+.sign-out-title,
+.sign-out-text {
+    color: #fff !important;
+}
+
+h3.sign-up-title,
+p.sign-up-text {
+    color: #fff;
+}
+
+form.signup label {
+    color: #fff;
+}
+
+form.signup li {
+    color: #fff !important;
 }
 
 body {
@@ -48,12 +80,16 @@ body {
     background-color: #D7E4E9;
 }
 
+.card-title {
+    color: #374248;
+}
+
 .card-text {
-    color: #fff;
+    color: #374248;
 }
 
 .card-body {
-    color: #374248;
+    color: #374248 !important;
 }
 
 
@@ -182,9 +218,9 @@ body {
 }
 
 .faded {
-    color: #A3B3BA;
+    color: #374248;
 }
 
 .approval {
-    color: #D7E4E9;
+    color: #1F292F;
 }

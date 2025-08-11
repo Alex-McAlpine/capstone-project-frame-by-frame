@@ -115,11 +115,35 @@ Frame by Frame offers a range of interactive features designed to enhance user e
 
 - **Commenting:** Every post supports a comment section, allowing users to share their thoughts, ask questions, or engage in discussions with the author and other readers.
 
-[Screenshots-needed]
+Here are screenshots showing you, a logged in user, creating a comment, submitting that, the comment being approved, updating the comment, resubmitting the updated comment, update confirmation, selecting the delete button on their comment and then confirmation on their comment being deleted.
+
+![logged-in](./README%20documentation/images/1logged%20in.png)
+
+![create-comment](./README%20documentation/images/Create%20a%20comment.png)
+
+![comment-submitted](./README%20documentation/images/comment%20submitted.png)
+
+![comment-approved](./README%20documentation/images/comment%20approved.png)
+
+![update-comment](./README%20documentation/images/Update%20a%20comment.png)
+
+![resubmitted-updated-comment](./README%20documentation/images/resubmitted%20updated%20comment.png)
+
+![update-confirmation](./README%20documentation/images/update%20confirmation.png)
+
+![select-delete-comment](./README%20documentation/images/Select%20delete%20comment.png)
+
+![comment-deleted](./README%20documentation/images/comment%20deleted.png)
+
+![clear-comment-section](./README%20documentation/images/clear%20comment%20section.png)
 
 - **Collaborating:** From the about section, users can fill out a collaboration form to engage with the blog author directly.
 
-[Screenshots-needed]
+![collaboration-form](./README%20documentation/images/collaborate-form.png)
+
+![submitting-form](./README%20documentation/images/submitting-form.png)
+
+![form-submit-confirmation](./README%20documentation/images/form-submit-confirmation.png)
 
 - **Account Registration:** Visitors can create an account to unlock additional features. Registration is quick and secure, ensuring a personalized experience.
 
