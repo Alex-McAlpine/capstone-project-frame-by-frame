@@ -4,12 +4,16 @@
     border-bottom: 1px solid #374248;
 }
 
-h1, h2, p {
+h1, h2, h3, p {
     color:#D7E4E9;
 }
 
 body {
     background-color: #1F292F;
+}
+
+.helptext {
+    color: #D7E4E9;
 }
 
 .brand {
@@ -46,6 +50,10 @@ body {
 
 .card-text {
     color: #374248;
+}
+
+.card-body {
+    color: #A3B3BA;
 }
 
 
@@ -129,7 +137,7 @@ body {
 
 .post-subtitle {
     margin-left: 5%;
-    color: #374248;
+    color: #BDCCD1;
 }
 
 .btn-signup,

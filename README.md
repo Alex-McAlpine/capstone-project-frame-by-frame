@@ -5,6 +5,7 @@
 - [Frame by Frame](#frame-by-frame)
 - [Table of Contents](#table-of-contents)
     - [Introduction](#introduction)
+        - [Test-account](#test-account)
     - [Repository](#repository)
     - [Agile Planning](#agile-planning)
         - [Project Board](#project-board)
@@ -41,6 +42,14 @@
 Frame by Frame is a blog-based website developed using HTML, CSS, Bootstrap, and Python with the Django framework.
 
 [Screenshots-of-Website]
+
+
+
+# Test Account
+
+Username: Tester3
+Password: testaccount1
+
 
 ## Repository
 
@@ -92,23 +101,24 @@ Frame by Frame offers a range of interactive features designed to enhance user e
 
 - **Like/Unliking Rating System:** Users can express their opinions on blog posts by liking or unliking them. This feedback mechanism helps highlight popular content and encourages quality contributions.
 
-[Screenshots-needed]
+![Post-not-liked](./README%20documentation/images/Post%20not%20liked..png)
+
+![Post-liked](./README%20documentation/images/Post%20been%20liked..png)
 
 - **Commenting:** Every post supports a comment section, allowing users to share their thoughts, ask questions, or engage in discussions with the author and other readers.
 
 [Screenshots-needed]
+
+- **Collaborating:** From the about section, registered users can fill out a collaboration form to engage with the blog author directly.
 
 - **Account Registration:** Visitors can create an account to unlock additional features. Registration is quick and secure, ensuring a personalized experience.
 
 [Screenshots-needed]
 
 - **Authenticated User Actions:** Registered users gain access to exclusive capabilities, including:
-    - **Creating Posts:** Share your own blog entries with the community. 
     - **Liking/Unliking Posts:** Interact with content by rating posts from other users.
     - **Commenting:** Participate in conversations by commenting on any post.
-
-    [Screenshots-needed]
-
+    - **Collaboration** Registered Users can request a collaboration from the about page.
 - **User Management:** The platform ensures that only authenticated users can create, like, or comment on posts, maintaining a safe and respectful environment.
 
 These features collectively create an engaging platform where users can connect, share ideas, and contribute to the Frame by Frame community.
@@ -146,7 +156,43 @@ The user experience (UX) of Frame by Frame is designed to be intuitive and user-
 
 - **User Onboarding:** Account registration is streamlined, enabling new users to join the community and unlock additional features such as posting, commenting, and liking content.
 
-Overall, the UX prioritizes clarity, accessibility, and engagement, making it easy for users to explore, communicate, and interact within the Frame by Frame blogging community.
+Overall, the UX prioritizes clarity, accessibility, and engagement, making it easy for users to explore, communicate, and interact within the Frame by Frame blogging community. 
+
+# Utilizing User Stories
+
+The UX design of the project was purposefully developed based on the requirements and goals outlined in the user stories.
+
+My Must Have user stories allowed the UX to be constantly available, to a high standard and to be improved in the future.
+
+As a Site User, I can click on a post so that I can read the full text.
+
+As a Site Admin I can create, read, update and delete posts so that I can manage my blog content.
+
+As a Site User I can leave comments on a post so that I can be involved in the conversation.
+
+As a Site Admin, I can create or update the about page content so that it is available on the site. 
+
+As a Site User, I can click on the About link so that I can read about the site.
+
+As a Site User I can modify or delete my comment on a post so that I can be involved in the conversation.
+
+As a Site Admin I can approve or disapprove comments so that I can filter out objectionable comments. 
+
+As a Site User I can register an account so that I can comment on a post.
+
+As a Site User / Admin I can view comments on an individual post so that I can read the conversation.
+
+As a Site Admin I can create draft posts so that I can finish writing the content later. 
+
+As a Site Owner I can mark collaboration requests as "read" so that I can see how many I still need to process. 
+
+As a logged in user of the website I should be able to rate (like/unlike) posts that appear on the page.
+
+As a Site Owner I can store collaboration requests in the database so that I can review them.  
+
+As a Potential Collaborator I can fill in a contact form so that I can submit a request for collaboration. 
+
+As a site user, I can view a paginated list of posts so that I can select which post I want to view. 
 
 ### Testing/Validation
 
@@ -194,7 +240,11 @@ Base template passed HTML validation.
 
 # About.HTML
 
-![About.html]
+![About.html](./README%20documentation/images/About%20page%20html%20pass.png)
+
+# Post-Detail.HTML
+
+![Post-detail](./README%20documentation/images/post%20detail%20pass.png)
 
 ## CSS
 
@@ -296,7 +346,7 @@ AI tools were used for brainstorming intital planning phases, colour scheme sele
 - Coolors for colour palette.
 - Eraser.io for ERDs.
 - FavIcon for browser icon.
-- Code Institute for helping me learn coding and supporting my journey.
+- Code Institute, especially Alex Tastad, Mark Briscoe and Roman Rakic, for helping me learn and supporting my cdoing journey.
 
 
 Everything used in the article posts is for educational purposes only and is not intended to infringe or steal anyones work,
