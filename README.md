@@ -109,7 +109,9 @@ Frame by Frame offers a range of interactive features designed to enhance user e
 
 [Screenshots-needed]
 
-- **Collaborating:** From the about section, registered users can fill out a collaboration form to engage with the blog author directly.
+- **Collaborating:** From the about section, users can fill out a collaboration form to engage with the blog author directly.
+
+[Screenshots-needed]
 
 - **Account Registration:** Visitors can create an account to unlock additional features. Registration is quick and secure, ensuring a personalized experience.
 
@@ -118,7 +120,7 @@ Frame by Frame offers a range of interactive features designed to enhance user e
 - **Authenticated User Actions:** Registered users gain access to exclusive capabilities, including:
     - **Liking/Unliking Posts:** Interact with content by rating posts from other users.
     - **Commenting:** Participate in conversations by commenting on any post.
-    - **Collaboration** Registered Users can request a collaboration from the about page.
+    - **Collaboration** Users can request a collaboration from the about page.
 - **User Management:** The platform ensures that only authenticated users can create, like, or comment on posts, maintaining a safe and respectful environment.
 
 These features collectively create an engaging platform where users can connect, share ideas, and contribute to the Frame by Frame community.
