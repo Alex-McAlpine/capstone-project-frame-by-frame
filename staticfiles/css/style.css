@@ -4,12 +4,57 @@
     border-bottom: 1px solid #374248;
 }
 
-h1, h2, p {
-    color:#D7E4E9;
+.form-label {
+    color: #fff;
+}
+
+.text-end {
+    color: #fff
+}
+
+.about-me,
+.about-text {
+    color: #fff;
+}
+
+.collaborate-title,
+.collaborate-text {
+    color: #fff;
+}
+
+.sign-out-title,
+.sign-out-text {
+    color: #fff !important;
+}
+
+h3.sign-up-title,
+p.sign-up-text {
+    color: #E6F2F4;
+}
+
+.sign-in-title,
+.sign-in-text {
+    color: #fff;
+}
+
+form.login p {
+    color: #fff;
+}
+
+form.signup label {
+    color: #fff;
+}
+
+form.signup li {
+    color: #fff !important;
 }
 
 body {
     background-color: #1F292F;
+}
+
+.helptext {
+    color: #D7E4E9;
 }
 
 .brand {
@@ -36,12 +81,24 @@ body {
 }
 
 .main-bg {
-    background-color: #1F292F;
+    background-color: #6c757d;
 }
 
 .card {
     border: #374248;
     background-color: #D7E4E9;
+}
+
+.card-title {
+    color: #374248;
+}
+
+.card-text {
+    color: #374248;
+}
+
+.card-body {
+    color: #374248 !important;
 }
 
 
@@ -63,7 +120,7 @@ body {
 }
 
 .author {
-    color: #A3B3BA;
+    color: #374248;
     margin: 4px;
     text-transform: uppercase;
 }
@@ -108,7 +165,7 @@ body {
 
 .post-link {
     text-decoration: none;
-    color: #BDCCD1;
+    color: #374248;
 }
 
 .post-link:hover,
@@ -125,7 +182,7 @@ body {
 
 .post-subtitle {
     margin-left: 5%;
-    color: #374248;
+    color: #BDCCD1;
 }
 
 .btn-signup,
@@ -170,9 +227,9 @@ body {
 }
 
 .faded {
-    color: #A3B3BA;
+    color: #374248;
 }
 
 .approval {
-    color: #D7E4E9;
+    color: #1F292F;
 }
