@@ -387,7 +387,9 @@ AI tools were used for brainstorming intital planning phases, colour scheme sele
 - Coolors for colour palette.
 - Eraser.io for ERDs.
 - FavIcon for browser icon.
-- Code Institute, especially Alex Tastad, Mark Briscoe and Roman Rakic, for helping me learn and supporting my cdoing journey.
+- Code Institute, especially Alex Tastad, Mark Briscoe and Roman Rakic, for helping me learn and supporting my coding journey.
+
+* Inspired by the Django Blog App from Code Institute.
 
 
 Everything used in the article posts is for educational purposes only and is not intended to infringe or steal anyones work,
