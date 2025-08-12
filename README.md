@@ -41,10 +41,6 @@
 
 Frame by Frame is a blog-based website developed using HTML, CSS, Bootstrap, and Python with the Django framework.
 
-[Screenshots-of-Website]
-
-
-
 # Test Account
 
 Username: Tester3
@@ -73,7 +69,7 @@ Wireframes were created in Canva.com to visualize UI layout and guide developmen
 
 ![Screenshot-of-PC-Home](./README%20documentation/images/pc%20home.png)
 
-![Screenshot-of-Mobile-Home](./README%20documentation/images/mobile%20home.png)
+![Screenshot-of-Mobile-Home](./README%20documentation/images/mobile%20home%20wireframe.png)
 
 ![Screenshot-of-About-PC](./README%20documentation/images/About%20me%20desktop.png)
 
@@ -147,7 +143,11 @@ Here are screenshots showing you, a logged in user, creating a comment, submitti
 
 - **Account Registration:** Visitors can create an account to unlock additional features. Registration is quick and secure, ensuring a personalized experience.
 
-[Screenshots-needed]
+![Register-navbar](./README%20documentation/images/Register-navbar.png)
+
+![prepare-signup-fields](./README%20documentation/images/prepare-signup-fields.png)
+
+![successfully-signedin](./README%20documentation/images/successfully-signedin.png)
 
 - **Authenticated User Actions:** Registered users gain access to exclusive capabilities, including:
     - **Liking/Unliking Posts:** Interact with content by rating posts from other users.
@@ -183,6 +183,14 @@ The user experience (UX) of Frame by Frame is designed to be intuitive and user-
 - **Clear Navigation:** The site features a straightforward navigation bar, allowing users to quickly access key sections such as Home, Blog Posts, About, and Account options. This structure helps users find content and features without confusion.
 
 - **Responsive Design:** The layout adapts seamlessly to different devices, providing an optimal viewing and interaction experience on desktops, tablets, and mobile phones.
+
+![Screenshots-of-pc-home-top](./README%20documentation/images/Website-home-top.png)
+
+![Screenshots-of-pc-home-bottom](./README%20documentation/images/Website-home-top%20(2).png)
+
+![Screenshots-of-mobile-home](./README%20documentation/images/Mobile-home.png)
+
+![Screenshots-of-tablet-home](./README%20documentation/images/Tablet-home.png)
 
 - **Accessible Communication:** Each blog post includes a comment section, making it easy for users to engage in discussions, ask questions, and share feedback with both authors and other readers. The comment interface is simple and accessible, encouraging active participation.
 
