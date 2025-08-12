@@ -29,6 +29,15 @@
 
 h3.sign-up-title,
 p.sign-up-text {
+    color: #E6F2F4;
+}
+
+.sign-in-title,
+.sign-in-text {
+    color: #fff;
+}
+
+form.login p {
     color: #fff;
 }
 
@@ -72,7 +81,7 @@ body {
 }
 
 .main-bg {
-    background-color: #1F292F;
+    background-color: #6c757d;
 }
 
 .card {
