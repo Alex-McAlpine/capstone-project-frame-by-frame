@@ -359,7 +359,25 @@ create a Procfile. This file tells Heroku how to run your application.
 
 ### AI
 
-AI tools were used for brainstorming intital planning phases, colour scheme selection, code generation, troubleshooting, and validation.
+AI tools were used to support parts of the project workflow. Their use was limited, intentional, and always followed by human review and testing.
+
+What AI was used for
+- Initial planning and ideation: helped brainstorm project names, structure, and user-story phrasing.
+- Colour scheme selection: generated palette suggestions and helped refine contrast/combination options.
+- Basic code generation: produced small code snippets (examples, helper functions, and README copy) that were adapted and integrated into the codebase.
+- Troubleshooting assistance: suggested debugging steps for environment, dependency, and configuration issues.
+- Code validation guidance and testing: recommended linters, validators, and test strategies; outputs were validated by running unit tests and validators locally.
+
+How AI was incorporated
+- Outputs were treated as suggestions, not authoritative code. Every AI-generated snippet or recommendation was manually reviewed, adapted where necessary, and tested before being committed.
+- No secrets, credentials, or private data were shared with AI services. Environment files (for example, `env.py`) and other sensitive files remain excluded from the repository via `.gitignore`.
+- Final responsibility for correctness, security, and licensing remains with the project maintainer.
+
+Reproducibility and verification
+- To verify programmatic changes or fixes suggested by AI, run the test suite:
+  ```bash
+  python manage.py test
+
 
 
 ### Technologies
