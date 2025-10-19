@@ -233,3 +233,78 @@ body {
 .approval {
     color: #1F292F;
 }
+
+/* --- Responsive fixes to prevent layout break on mobile when deleting comments --- */
+
+/* safer box model & avoid horizontal overflow */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+html, body {
+    overflow-x: hidden;
+}
+
+/* generic img/link wrapping safety */
+img, svg, iframe {
+    max-width: 100%;
+    height: auto;
+}
+a, .comment-text {
+    overflow-wrap: anywhere; /* break long words/URLs */
+    word-break: break-word;
+}
+
+/* Comment layout (adjust class names to match your HTML if needed) */
+.comment {
+    display: flex;
+    gap: 0.5rem;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 0.75rem;
+    /* optional visual stability */
+    transition: opacity .15s ease, transform .15s ease;
+}
+
+/* allow comment-body to shrink correctly inside a flex container */
+.comment-body {
+    flex: 1 1 auto;
+    min-width: 0; /* critical: allows the body to shrink instead of forcing overflow */
+}
+
+/* comment actions (buttons) */
+.comment-actions {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    flex: 0 0 auto; /* keep actions from stretching */
+}
+
+/* make delete button compact and non-wrapping */
+.btn-delete {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.35rem 0.5rem;
+    white-space: nowrap;
+    flex-shrink: 0;
+    min-width: 40px;
+    box-shadow: none;
+}
+
+/* small-screen: stack comment elements to avoid horizontal pressure */
+@media (max-width: 576px) {
+    .comment {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .comment-actions {
+        justify-content: flex-end;
+        margin-top: 0.5rem;
+    }
+}
+
+/* fallback if some large pseudo-elements/images cause overflow */
+.container, .row, .masthead, .masthead-image {
+    max-width: 100%;
+    overflow-x: hidden;
+}
