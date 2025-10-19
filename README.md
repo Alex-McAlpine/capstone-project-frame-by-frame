@@ -363,20 +363,41 @@ AI tools were used to support parts of the project workflow. Their use was limit
 
 What AI was used for
 - Initial planning and ideation: helped brainstorm project names, structure, and user-story phrasing.
+
+![AI-name-suggestions](.//README%20documentation/images/AI%20Name%20suggestions.png)
+
+![AI-user-story-suggestion1](.//README%20documentation/images/AI%20user%20story%20suggestion1.png)
+
+![AI-user-story-suggestion](.//README%20documentation/images/AI%20user%20story%20suggestion2.png)
+
+![AI-user-story-suggestion](.//README%20documentation/images/AI%20user%20story%20suggestion3.png)
+
+
 - Colour scheme selection: generated palette suggestions and helped refine contrast/combination options.
-- Basic code generation: produced small code snippets (examples, helper functions, and README copy) that were adapted and integrated into the codebase.
+
+I inputted a movie poster from Interstellar into an AI colour generator to get my colour scheme.
+
+![colour-scheme-inspiration](.//README%20documentation/images/Colour%20scheme%20inspiration.jpg)
+
+Upon placing that image into coolers.co, I got my colour scheme:
+
+![colour-scheme](.//README%20documentation/images/Colour%20scheme.png)
+
+- Basic code generation: produced small code snippets that were adapted and integrated into the codebase.
+
+
 - Troubleshooting assistance: suggested debugging steps for environment, dependency, and configuration issues.
-- Code validation guidance and testing: recommended linters, validators, and test strategies; outputs were validated by running unit tests and validators locally.
+
+I attempted to use AI to fix the environment variable visibility issues since they're in a .gitignore file but still present in the final code.
+
+![AI-troubleshoot-help](.//README%20documentation/images/AI%20suggestion%20for%20gitignore%20file.png)
+
+- Code validation guidance and testing: outputs were validated by running unit tests and validators locally, seen in the testing section.
+
+
 
 How AI was incorporated
 - Outputs were treated as suggestions, not authoritative code. Every AI-generated snippet or recommendation was manually reviewed, adapted where necessary, and tested before being committed.
-- No secrets, credentials, or private data were shared with AI services. Environment files (for example, `env.py`) and other sensitive files remain excluded from the repository via `.gitignore`.
-- Final responsibility for correctness, security, and licensing remains with the project maintainer.
-
-Reproducibility and verification
-- To verify programmatic changes or fixes suggested by AI, run the test suite:
-  ```bash
-  python manage.py test
 
 
 
