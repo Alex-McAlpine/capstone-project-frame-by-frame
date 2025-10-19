@@ -87,7 +87,7 @@ User stories were used to capture requirements from the end-user perspective and
 
 The colour scheme was inspired by a screenshot from the movie Interstellar.
 
-![Colour-scheme-chosen](./README%20documentation/images/Colour%20scheme.png)
+![Colour-scheme-chosen](.//README%20documentation/images/Colour%20scheme-min.png)
 
 ![Inspiration-for-colour-scheme](./README%20documentation/images/Colour%20scheme%20inspiration.jpg)
 
@@ -407,7 +407,7 @@ I inputted a movie poster from Interstellar into an AI colour generator to get m
 
 Upon placing that image into coolers.co, I got my colour scheme:
 
-![colour-scheme](.//README%20documentation/images/Colour%20scheme.png)
+![colour-scheme](.//README%20documentation/images/Colour%20scheme-min.png)
 
 - Basic code generation: produced small code snippets that were adapted and integrated into the codebase.
 
