@@ -352,10 +352,36 @@ create a Procfile. This file tells Heroku how to run your application.
 
 # Deploying to Heroku
 
-- Create heroku app
-- Link github repository & Code Institute PostGres database
-- Add environmental variables to heroku, such as, secret keys.
-- Deploy the application
+The site is deployed on Heroku using the following steps:
+
+# 1. Set Up Heroku Account & App
+
+- Create a Heroku account and a new app via the Heroku dashboard.
+
+# 2. Prepare the Project for Deployment
+
+- Ensure all dependencies are listed in requirements.txt (use pip freeze > requirements.txt).
+- Add a Procfile with the line
+- Set ALLOWED_HOSTS in settings.py to include the Heroku app domain.
+- Configure static files using whitenoise or similar.
+
+# 3. Configure Environment Variables
+
+-  Set environment variables (e.g., SECRET_KEY, DEBUG, DATABASE_URL) in the Heroku dashboard under Settings > Config Vars.
+
+# 4. Set Up the Database
+
+# 5. Push Code to Heroku
+
+- Initialize a git repository if not already done.
+
+# 6. Run Migrations & Collect Static Files
+
+# 7. Verify Deployment
+
+- Visit the Heroku app URL to confirm the site is live and functioning.
+
+Note: For local development, use environment variables or a .env file to manage sensitive settings. Always disable DEBUG in production.
 
 ### AI
 
