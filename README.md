@@ -385,6 +385,10 @@ Upon placing that image into coolers.co, I got my colour scheme:
 
 - Basic code generation: produced small code snippets that were adapted and integrated into the codebase.
 
+I used AI to adjust some code that was causing PEP8 validation issues.
+
+![AI-code-changes](.//README%20documentation/images/AI%20code%20changes.png)
+
 
 - Troubleshooting assistance: suggested debugging steps for environment, dependency, and configuration issues.
 
